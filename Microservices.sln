@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{0C28028F-6BE1-4879-BB1D-C21ED720021D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{7458B770-CD5D-48E2-B0ED-A4066CAD9D81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{609D520F-4E05-4691-A0E4-3676A935C2BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{0C28028F-6BE1-4879-BB1D-C21ED720021D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C28028F-6BE1-4879-BB1D-C21ED720021D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C28028F-6BE1-4879-BB1D-C21ED720021D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609D520F-4E05-4691-A0E4-3676A935C2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609D520F-4E05-4691-A0E4-3676A935C2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609D520F-4E05-4691-A0E4-3676A935C2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609D520F-4E05-4691-A0E4-3676A935C2BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{31BFEDAF-438E-40BA-AF04-5F9FE2956AF6} = {120F6672-FD8D-48C2-BEDC-66A0A0240496}
 		{265F5E10-E712-4868-94CD-47E51E8CDDE7} = {DA583FCA-6B7E-44EF-B904-225DDEE4D763}
 		{0C28028F-6BE1-4879-BB1D-C21ED720021D} = {9018E5DF-01EB-4678-A941-30B172D62F2A}
+		{7458B770-CD5D-48E2-B0ED-A4066CAD9D81} = {83BEE8E2-C8CA-49A6-A715-10C7C50EA090}
+		{609D520F-4E05-4691-A0E4-3676A935C2BC} = {7458B770-CD5D-48E2-B0ED-A4066CAD9D81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7596AACA-5619-41D4-8351-1B8C43E9E36A}
